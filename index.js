@@ -34,7 +34,7 @@ function currentTime()
   var months=["January","February","March","April","May","June","July","August","September","October","November","December"];
   var week=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
-  var presentDay=week[dayName]+", "+months[month]+" "+date+", "+year;
+  var presentDay=week[dayName]+", "+date+" "+months[month]+" "+year;
 
   const clock = document.getElementById("time");
   const dayIntro=document.getElementById("dayName");
